@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>League of Legends Login</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -13,46 +14,46 @@
     <main>
         <section class="login">
 
-            <img src="#" alt="login" class="login_logo">
+            <img src="./images/riot-games-logo.png" alt="login" class="login__logo">
 
-            <h1 class="login_title">Fazer login</h1>
+            <h1 class="login__title">Fazer login</h1>
 
-            <label for="" class="login_label">
-                <span>nome de usuário</span>
+            <label class="login__label">
+                <span >nome de usuário</span>
                 <input type="text" name="username" class="input">
             </label>
 
-            <label for="" class="login_label">
-                <span>senha</span>
+            <label class="login__label">
+                <span >senha</span>
                 <input type="password" name="password" class="input">
             </label>
 
-            <div class="login_icons">
+            <div class="login__icons">
                 <button type="button" class="icons_button">
-                    <img src="#" alt="facebook">
+                    <i class='bx bxl-facebook-circle'></i>
                 </button>
 
                 <button type="button" class="icons_button">
-                    <img src="#" alt="apple">
+                    <i class='bx bxl-apple' ></i>
                 </button>
 
                 <button type="button" class="icons_button">
-                    <img src="#" alt="google">
+                    <i class='bx bxl-google' ></i>
                 </button>
             </div>
 
-            <label for="" class="login__label--checkbox">
+            <label class="login__label--checkbox">
                 <input type="checkbox" class="input--checkbox">
                 Manter login
             </label>
 
             <button type="button" class="login__button" disabled>
-                <!-- alguma imagem -->
+                <i class='bx bx-right-arrow-alt' ></i>
             </button>
 
             <a href="#" class="login__link">não consegue iniciar sessão?</a>
             <a href="#" class="login__link">criar conta</a>
-            
+
         </section>
 
 
